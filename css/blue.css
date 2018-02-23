@@ -1,0 +1,1137 @@
+@font-face {
+    font-family: 'Rancho-Regular';
+    src:url(../polices/Rancho-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'caviar dreams';
+    src:url(../polices/CaviarDreams.ttf) format('truetype');
+}
+
+
+body
+{
+    margin: 0%; 
+    height: auto;
+    overflow-x: hidden;
+    z-index: -1; 
+}
+
+h1
+{
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+/** Page Principale **/ 
+#PagePrincipale {
+    margin-top: 0px;
+    position: relative;
+}
+
+
+/** Style de la barre lattérale droite **/ 
+#BarreLatteraleDroite {
+    z-index: 1000;
+    float: left; 
+    width: 13%; 
+    min-height: 660px; 
+    margin-left: -1px; 
+    background: #1b887c;
+    opacity: 0.8;
+ 
+}
+
+#BarreLatteraleGauche {
+    z-index: 1000;
+    width: 15%;
+    min-height: 660px;
+    background: #1b887c;
+    float : left; 
+    color: white; 
+    opacity: 0.8;
+}
+
+.BanniereHotel {
+    float: left;
+    background-size: cover;
+	width: 72%;  
+    min-height:  660px; 
+}
+
+
+#SlideImages li
+{
+    width: 100%;
+    
+}
+#SlideImages img
+{
+    width: 100%;
+    height: 660px; 
+    
+}
+
+/** Style des éléments du menu vertical **/ 
+.nav-enumeration {
+    position: absolute;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-enumeration li {
+    text-indent: 10%;
+   
+}
+
+.nav-enumeration li a {
+    display: block;  /** Pour l'affichage en vertical **/ 
+    text-decoration: none; 
+    color: #fff;
+    font-family: "Rancho-Regular";
+    font-size: 1.4em;
+}
+
+.nav-enumeration li a:hover {
+    text-decoration: none;
+    color: #041d3a;
+    background: rgba(255,255,255,0.2);
+}
+
+
+.nav-enumeration > .TitreMenu {
+    height: 76px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center; 
+    
+}
+/****************/ 
+
+
+form 
+{
+    color: #fff; 
+    font-family: 'Rancho-Regular';
+    font-size: 20px; 
+   
+}
+
+label
+{
+    display: block;
+	width: 80%;
+	float: left;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    margin-left: 10%; 
+}
+label span
+{
+    padding-right: 10px; 
+}
+form input 
+{
+    margin-left: 23%; 
+    font-family: cambria;
+    background: #ddd; 
+    width: 60%; 
+}
+form select
+{
+    margin-left: 23%; 
+    font-family: cambria;
+    background: #ddd; 
+    width: 60%; 
+}
+
+.envoyer
+{
+    width: 60%; 
+    margin-left: 23%;
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 25px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: #032836;
+    border-color: #032836;
+ 
+}
+.envoyer:hover
+{
+    background-color: #011117;
+    border-color: #011117;
+    box-shadow: 2px 2px 5px;
+}
+
+
+#Bienvenue 
+{
+    margin-left: 12%; 
+    color: white; 
+    height: auto;
+   
+      
+}
+
+#Bienvenue div 
+{
+    width: 27%;  
+    float: left; 
+    margin-right : 3%;
+    padding-right: 10px;
+    text-align: center;  
+    font-size: 20px;  
+    font-family: "caviar dreams"; 
+    background:  url(../images/reservation.png) repeat ;
+    
+   
+}
+
+#Bienvenue div img
+{
+    border: 5px solid #fff;
+    height: 220px;
+    background:  url(../images/reservation.png) repeat ;
+}
+
+#Bienvenue div img:hover 
+{
+    border: 5px solid #c68700;
+}
+
+#Bienvenue div > h2
+{
+    margin-top: -1%; 
+    font-family: "Rancho-Regular";  
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center; 
+}
+
+#infosMeteo
+{
+    float: left; 
+    width: 100%; 
+    height: 400px; 
+    margin-top: 6%;
+    color: white;
+    margin-bottom: 4%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.footer-section{
+	float: left; 
+    width: 100%; 
+    opacity: 0.8; 
+	text-align:center;
+	background: #1b887c; 
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 25px;
+    margin-bottom: 0px; 
+    
+}
+.headerRooms {
+    background: url(../images/rooms-deluxe-single%20-%20Copie.jpg) no-repeat 0px -240px; 
+    background-size: cover;
+    min-height: 260px;
+}
+.headerRestaurants {
+    background: url(../images/hotel-restaurant-design.jpg) no-repeat 0px -340px; 
+    background-size: cover;
+    min-height: 260px;
+}
+
+.headerGym {
+    background: url(../images/picture_hotel-spa-arles.jpg) no-repeat 0px -340px; 
+    background-size: cover;
+    min-height: 260px;
+}
+
+#menu ul {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+ }
+#menu li {
+ float:left;
+ width: auto; 
+ padding:0;
+ background-color:none;
+ }
+#menu li a {
+ display:block;
+ color:white;
+ text-decoration:none;
+ width: auto;
+    padding: 10px; 
+ }
+
+#menu li:hover
+{
+    background-color: rgba(249, 255, 247, 0.43);
+
+}
+#menu li a:hover {
+ color:#000;
+    
+ }
+#menu 
+{
+    margin-left: 36%; 
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 25px; 
+}
+.ContenuPage 
+{
+    float: left; 
+}
+
+.noir
+{
+    float: left; 
+      background-color: black;
+    opacity: 0.8;
+    padding-bottom: 30px;
+    
+}
+
+.ContenuPage .CadresDetails
+{
+    width: 90%; 
+    float: left;
+    margin-left: 4%;  
+    font-family: "caviar dreams"!important;
+   
+    
+}
+  
+.ContenuPage .CadresDetails img
+{
+    width : 40%; 
+    height: 350px;  
+    margin: 3%; 
+    transition: width 2s ; 
+    float: left; 
+}
+.ContenuPage .CadresDetails img:hover
+{
+    width : 50%; 
+    height: 450px;  
+    margin: 3%; 
+    float: left; 
+}
+.ContenuPage .CadresDetails h4 
+{
+    margin-top: 2%;
+    margin-bottom: -2%; 
+    font-family: 'Rancho-Regular'; 
+    font-size: 40px; 
+    font-weight: normal; 
+}
+.ContenuPage .CadresDetails h3
+{
+    margin-top: 1%; 
+    font-family: "caviar dreams";
+    font-size: 16px; 
+    font-weight: normal; 
+    text-align: justify;
+}
+
+
+
+
+.ContenuPage .CadresDetails h3 span
+{
+    font-family: 'Rancho-Regular';
+    font-size: 20px; 
+}
+
+.ContenuPage .CadresDetails h3 span span
+{
+    margin-left: 2%;
+}
+
+#div1{
+    text-align: center; 
+    width: 50%;
+    font-family: "caviar dreams";
+    margin-left: 30%;
+    height: 100%;
+    background-image: url(../images/Meteo120315346.png) ;
+    background-repeat: no-repeat;  
+}
+#div1 p 
+{
+    text-align: center; 
+}
+h4 {
+    font-family: "Rancho-Regular";  
+    margin: 0px; 
+    font-size : 30px; 
+}
+
+.alerte
+{
+    
+   background:  url(../images/reservation.png) repeat ;
+    margin: 5%;
+    padding: 2%; 
+}
+.alerte p 
+{
+    font-family: "Rancho-Regular"; 
+    font-size: 24px; 
+    text-align: center; 
+    color: #fff;
+}
+
+
+#SlideImages{padding:0;margin:0;list-style:none;outline:none;}
+#fssPlayPause{
+    position:absolute;
+    top:600px;
+    right:210px;
+    background:url(../white.png) repeat;
+    font-family: "Rancho-Regular"; 
+    font-size: 24px; 
+    color: #000;
+    padding: 1% 1% 1% 1% ;
+    text-decoration: none;
+}
+
+p{text-align:center;}
+#fssList{
+    list-style:none; 
+    margin:auto;
+    padding:5px 0 0 45%;
+    font-family: "Rancho-Regular"; 
+    font-size: 17px; 
+}
+#fssList li{
+    display:inline;
+    padding-right:10px;
+}
+
+.formulaire input 
+{
+    width:auto; 
+    margin: auto;
+    margin-top: 3%; 
+}
+.formulaire select
+{
+    font-family: cambria;
+    background: #ddd; 
+    width: auto; 
+    margin: auto;
+    margin-top: 3%; 
+}
+.formulaire legend
+{
+    color: #eee; 
+    font-weight: normal!important;
+}
+.formulaire .rubrique {
+ 
+    border:2px #ddd;
+    width: 36%; 
+    border-style: solid;
+    margin:auto;
+   background:  url(../images/reservation.png) repeat ;
+   
+ }
+.formulaire .check 
+{
+    float: none;
+    font-size: 30px; 
+}
+
+.formulaire label
+{
+	width: 150px;
+	float: left;
+    margin: auto ;
+    color: #eee; 
+}
+.formulaire .envoyer
+{
+    width: 10%; 
+    height: 5%; 
+    margin-left: 43%; 
+    margin-bottom: 10%;
+    margin-top: -2%;
+    
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 25px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: black;
+    float: left;
+}
+.formulaire fieldset .envoyer
+{
+    width: 30%; 
+    min-height: 6%; 
+    margin-bottom: auto; 
+    margin-top: auto; 
+    margin-left: 33%; 
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 25px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: black;
+    float: left;
+}
+
+
+.mot1, .mot2,.mot3,.mot4,.mot5,.mot6
+{
+    position: absolute;
+    top: 300px; 
+    width: 100%; 
+    height: 200px;
+    text-align: center; 
+}
+.mot1 h1, .mot2 h1, .mot3 h1, .mot4 h1 , .mot5 h1
+{
+    width: 850px;
+    margin: auto;
+    background: #000; 
+    color: #eee; 
+    opacity: 0.8;
+    padding: 10px;
+}
+    
+.mot1 {
+    animation:fadeM1 40s infinite;
+    -webkit-animation:fadeM1 40s infinite;
+
+} 
+.mot2 {
+   
+    animation:fadeM2 40s infinite;
+    -webkit-animation:fadeM2 40s infinite;
+}
+.mot3 {
+   
+    animation:fadeM3 40s infinite;
+    -webkit-animation:fadeM3 40s infinite;
+}
+.mot4 {
+   
+    animation:fadeM4 40s infinite;
+    -webkit-animation:fadeM4 40s infinite;
+}
+.mot5 {
+   
+    animation:fadeM5 40s infinite;
+    -webkit-animation:fadeM5 40s infinite;
+}
+.mot6 {
+   
+    animation:fadeM6 40s infinite;
+    -webkit-animation:fadeM6 40s infinite;
+}
+
+@keyframes fadeM1
+{
+    0%   {opacity:1}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 1}
+}
+@keyframes fadeM2
+{
+   0%   {opacity:0}
+    16.66% { opacity: 1}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+@keyframes fadeM3
+{
+   0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 1}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+
+@keyframes fadeM4
+{
+   0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 1}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+@keyframes fadeM5
+{
+   0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 1 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+@keyframes fadeM6
+{
+    0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 1 }
+    100% { opacity: 0}
+}
+
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+    z-index: -1;
+    background: url(../images/bar-reception.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade 40s infinite;
+    -webkit-animation:fade 40s infinite;
+
+} 
+.slide2 {
+    z-index: -1;
+    background: url(../images/4.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade2 40s infinite;
+    -webkit-animation:fade2 40s infinite;
+}
+.slide3 {
+    z-index: -1; 
+    background: url(../images/hotel-restaurant-design.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade3 40s infinite;
+    -webkit-animation:fade3 40s infinite;
+}
+.slide4 {
+    z-index: -1; 
+    background: url(../images/rc_powerscourt_espa_serenity_room.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade4 40s infinite;
+    -webkit-animation:fade4 40s infinite;
+}
+.slide5 {
+    z-index: -1; 
+    background: url(../images/hotel-white-roma-gym-001.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade5 40s infinite;
+    -webkit-animation:fade5 40s infinite;
+}
+.slide6 {
+    z-index: -1; 
+    background: url(../images/maxresdefault.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade6 40s infinite;
+    -webkit-animation:fade6 40s infinite;
+}
+@keyframes fade
+{
+    0%   {opacity:1}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 1}
+}
+@keyframes fade2
+{
+   0%   {opacity:0}
+    16.66% { opacity: 1}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+@keyframes fade3
+{
+   0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 1}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+
+@keyframes fade4
+{
+   0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 1}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+@keyframes fade5
+{
+   0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 1 }
+    83.333% { opacity: 0 }
+    100% { opacity: 0}
+}
+@keyframes fade6
+{
+    0%   {opacity:0}
+    16.66% { opacity: 0}
+    33.333% { opacity: 0}
+    50% { opacity: 0}
+    66.666% { opacity: 0 }
+    83.333% { opacity: 1 }
+    100% { opacity: 0}
+}
+
+#google-map {
+    float: left;
+    width: 100%;
+    height: 600px; 
+}
+.qst
+{
+    font-size: 25px; 
+    color: white; 
+    text-align: center;
+    float: none;
+}
+.qst span a
+{
+  background:  url(../images/reservation.png) repeat ;
+    font-size: 30px; 
+    color: black;
+    padding: 7px;
+}
+
+.inscr
+{
+    width: 100%; 
+    background: url(../images/reservation.png) repeat ;
+    height: 56px; 
+}
+    
+.messageErreur 
+{
+    width: 100%; 
+    height: 100px;
+   font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 25px;
+    color: #ecbdbd; 
+}
+.divConnexion
+{
+    position: absolute; 
+    width : 360px; 
+    height: 70px; 
+    top : 20px; 
+    left: 57%; 
+    background: url(../images/reservation.png) repeat ;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal!important;
+    
+}
+.divConnexion a
+{
+    font-size: 25px;
+    color: #ddd; 
+    font-weight: normal!important;   
+}
+
+label.class1
+{
+    color: #fff;
+    text-align:center;
+    margin-top:-25%;
+    font-size: 21px; 
+}
+*.loupe 
+{
+    height: 60px; 
+    margin-top: 20px; 
+    width: 60px;
+    background-image: url(../images/zoomBlue.png) ;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.profile
+{
+    float:left;
+    height: 530px; 
+    width: 20%; 
+    background: url(../images/reservation.png) repeat ;
+    margin-left: 10%; 
+    margin-top: 10%; 
+}
+.profile h1
+{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center; 
+}
+.infosClient
+{
+    float: left; 
+    height: auto;
+    width: 50%;
+    background: url(../images/reservation.png) repeat ;
+    margin-left: 5%;
+    margin-top: 10%; 
+    margin-bottom: 10%;
+    padding: 2%;
+    
+}
+    
+.infosClient label
+{
+    margin: 0px;
+    display: block;
+	width: 200px;
+	float: left;
+    margin-left: 30px;
+    
+}
+.infosClient input
+{
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+}
+    
+.infosClient select
+{
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+}
+.infosClient .check 
+{
+    float: none;
+    font-size: 30px; 
+}
+.infosClient .envoyer
+{
+    width: 40%; 
+    margin-left: 30%;
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 25px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: black;
+ 
+}
+
+
+.barAdmin
+{
+    float:left;
+    height: 350px; 
+    width: 20%; 
+    background: #000 ;
+    opacity: 0.7; 
+    margin-left: 0%; 
+    margin-top: 5%; 
+}
+.barAdmin h1
+{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center; 
+}
+.infosPageAdmin
+{
+    float: left; 
+    width: 83%;
+    background: url(../images/reservation.png) repeat ;
+    padding: 2%;
+    background-size: cover;
+    
+}
+
+.infosPageAdmin label
+{
+    margin: 0px;
+    display: block;
+	width: 200px;
+	float: left;
+    margin-left: 30px;
+    
+}
+.infosPageAdmin input
+{
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+}
+    
+.infosPageAdmin select
+{
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+}
+.infosPageAdmin .check 
+{
+    float: none;
+    font-size: 30px; 
+}
+
+.infosPageAdmin textarea
+{
+    float: left; 
+    margin-top: 3%;
+    margin-left: 20%; 
+    width: 70%; 
+}
+
+
+
+th 
+{
+    font-family: 'Rancho-Regular';
+    font-size: 30px; 
+    color: white; 
+    font-weight: normal; 
+    padding: 5px; 
+}
+td
+{
+    font-family: 'caviar dreams'; 
+    font-size: 17px;
+    font-weight: bold; 
+    padding: 5px; 
+}
+table 
+{
+    width: 100%;
+    background: black;
+    opacity: 0.7; 
+    color: #eee; 
+    border-collapse: collapse; 
+     text-align: center;
+}
+tr:nth-child(2n)
+{       
+    background: black;
+    opacity: 0.9; 
+    padding: 5px; 
+   
+}
+
+tr:nth-child(2n+1)
+{       
+    background: #6c064b;
+    opacity: 0.9; 
+    padding: 5px; 
+}
+td .envoyer 
+{
+    margin: auto;
+    margin-left: 30%; 
+    width: 50%; 
+    background: white; 
+    color: black; 
+}
+td .envoyer:hover 
+{
+   
+    background: #bbb; 
+    color: black; 
+}
+td form 
+{
+    height: 12px; 
+    margin: 0x; 
+}
+  
+
+#statsEvents 
+{
+    margin-left: 12%; 
+    color: white; 
+    height: auto;
+    background: none; 
+   
+      
+}
+
+#statsEvents div 
+{
+    width: 25%;  
+    float: left; 
+    margin-left: 0px; 
+    margin-right : 3%;
+    padding-right: 10px;
+    text-align: center;  
+    font-size: 22px;  
+    font-family: 'Rancho-Regular';
+    margin-bottom: 5%;   
+}
+
+#statsEvents div:nth-child(1)
+{
+    background: #d23ca2; 
+    border : 2px solid #992373;
+
+}
+
+#statsEvents div:nth-child(2)
+{
+    background: #89d314; 
+    border : 2px solid #058708;
+}
+#statsEvents div:nth-child(3)
+{
+    background: #06aca2; 
+    border : 2px solid #03615b;
+}
+
+
+#statsChambres 
+{
+    margin-left: 12%; 
+    color: white; 
+    height: auto;
+    background: none; 
+   
+      
+}
+
+#statsChambres div 
+{
+    width: 15%;  
+    float: left; 
+    margin-left: 0px; 
+    margin-right : 3%;
+    padding-right: 10px;
+    text-align: center;  
+    font-size: 22px;  
+    font-family: 'Rancho-Regular';
+    margin-bottom: 5%;   
+}
+
+#statsChambres div:nth-child(1)
+{
+    background: #d23ca2; 
+    border : 2px solid #992373;
+
+}
+
+#statsChambres div:nth-child(2)
+{
+    background: #89d314; 
+    border : 2px solid #058708;
+}
+#statsChambres div:nth-child(3)
+{
+    background: #06aca2; 
+    border : 2px solid #03615b;
+}
+#statsChambres div:nth-child(4)
+{
+    background: #d59ddf; 
+    border : 2px solid #7d5983;
+}
+#statsChambres div:nth-child(5)
+{
+    background: #d2aa6c; 
+    border : 2px solid #a07d46;
+}
+
+.admin .TitreMenu {
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center; 
+    
+}
+.admin .TitreMenu a{
+    height: 50px;
+    margin-top: 20px;
+
+    text-align: center;
+     color: #e4a1d5; 
+    
+}
+
+#infosEvents table
+{
+  
+    width: 90%;
+   margin: auto;
+     text-align: center;
+  
+}
+
+#infosEvents th
+{
+      
+    background: #e97f0e; 
+}
+
+#infosEvents
+{
+    float: left; 
+    width: 100%; 
+    height: 400px; 
+    margin-top: 6%;
+    color: white;
+    margin-bottom: 4%;
+    background-color: black;
+    opacity: 0.98;
+}
+
+#googleMap
+{
+    width: 900px; 
+    height: 500px;
+    margin-left: 27%; 
+    margin-top: 10%; 
+    margin-bottom: 10%;
+}

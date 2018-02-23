@@ -1,0 +1,156 @@
+
+    
+body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+.nav-enumeration li a {
+    display: block;  /** Pour l'affichage en vertical **/ 
+    text-decoration: none; 
+    color: mediumvioletred;
+    font-family: "Rancho-Regular";
+    font-size: 1em;
+}
+    
+ #BarreLatteraleDroite {
+    z-index: 1000;
+    float: left; 
+    width: 12%; 
+    min-height: 660px; 
+    background: #000;
+    
+}
+
+#BarreLatteraleGauche {
+    z-index: 1000;
+    width: 17%;
+    min-height: 660px;
+    background: #000;
+    float : left; 
+}
+
+.BanniereHotel {
+   float: left;
+    background-size: cover;
+	width: 71%;  
+    min-height: 660px;
+}
+
+.BanniereHotel img
+{
+    min-height: 660px;
+}
+
+    
+.nav-enumeration li {
+    text-indent: 10%;
+   
+}
+.nav-enumeration > .TitreMenu {
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    margin-left: -30%; 
+    
+    
+}
+
+.envoyer
+{
+    width: 60%; 
+    margin-left: 23%;
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 15px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: #ca8c08;
+    border-color: #9e6c01;
+ 
+}
+    form 
+{
+    color: #ddd; 
+    font-family: 'Rancho-Regular';
+    font-size: 1em; 
+   
+}
+    
+    
+
+#Bienvenue div 
+{
+    width: 27%;  
+    float: left; 
+    margin-right : 3%; 
+    text-align: center;  
+    font-size: 14px;  
+    font-family: "caviar dreams"; 
+}
+
+#Bienvenue div img
+{
+    border: 3px solid #fff;
+    height: 110px;
+}
+
+#Bienvenue div img:hover 
+{
+    border: 5px solid #c68700;
+}
+
+#Bienvenue div > h2
+{
+    margin-top: -1%; 
+    font-family: "Rancho-Regular";  
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center; 
+}
+
+#div1{
+    text-align: center; 
+    width: 70%;
+    font-family: "caviar dreams";
+    margin: auto;
+    height: 100%;
+    background-image: url(../images/Meteo120315346.png) ;
+    background-repeat: no-repeat;
+    
+}
+    
+.ContenuPage .CadresDetails h3
+{
+    margin-top: 1%; 
+    font-family: "caviar dreams";
+    font-size: 12px!important; 
+    font-weight: normal; 
+    text-align: justify;
+}
+    
+.ContenuPage .CadresDetails img
+{
+    width : 50%; 
+    height: 350px;  
+    margin: 3%; 
+    transition: width 2s ; 
+    float: left; 
+}
+.ContenuPage .CadresDetails img:hover
+{
+    width : 60%; 
+    height: 400px;  
+    margin: 3%; 
+    float: left; 
+}
+
+    #menu 
+{
+    margin-left: 30%; 
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 25px; 
+}
+

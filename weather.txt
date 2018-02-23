@@ -1,0 +1,8 @@
+﻿<meta charset="utf-8">
+<h4>Température du jour </h4>
+<p> 5:00 : 1°<br/>
+8:00 : 5°<br/>
+12:00 : 7°<br/>
+16:00 : 10°<br/>
+20:00 : 2°<br/>
+23:00 : 5° Hell</p>
